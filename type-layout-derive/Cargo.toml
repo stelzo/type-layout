@@ -1,6 +1,6 @@
 [package]
-name = "type-layout-derive"
-description = "Derive macro implementation for type-layout crate"
+name = "type-layout-syn2-derive"
+description = "Derive macro implementation for type-layout crate. Patched for syn 2."
 version = "0.2.0"
 edition = "2018"
 authors = ["Lucien Greathouse <me@lpghatguy.com>"]
