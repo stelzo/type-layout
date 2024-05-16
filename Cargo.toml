@@ -21,7 +21,7 @@ serde1 = ["serde"]
 members = ["type-layout-derive", "try-crate"]
 
 [dependencies]
-type-layout-derive = { version = "0.2.0", path = "type-layout-derive" }
+type-layout-derive = { version = "0.2.0", package = "type-layout-syn2-derive", path = "type-layout-derive" }
 
 memoffset = "0.9"
 serde = { version = "1.0.116", features = ["derive"], optional = true }
